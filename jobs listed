@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for Labourers</title>
+    <link rel="stylesheet" href="stylejob.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Available Jobs for Labourers</h1>
+    </header>
+
+    <section class="job-list">
+        <div class="job-card">
+            <h2>FARMING</h2>
+            <p>Description of the job goes here.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Job Title 2</h2>
+            <p>Description of the job goes here.</p>
+            <button class="apply-button">Apply Now</button>
+        </div>
+
+        <!-- Add more job cards as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shram Saathi</p>
+    </footer>
+</body>
+</html>
