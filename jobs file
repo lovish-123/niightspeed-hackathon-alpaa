@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for Labourers</title>
+    <link rel="stylesheet" href="cons.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Available Jobs for Labourers</h1>
+    </header>
+
+    <section class="job-list">
+        <div class="job-card">
+            <h3>AGRICULTURE</h3>
+            <h2>Job 1</h2>
+            <a href="#" onclick="showConstructionWorkerProfile()">Household Worker</a>
+    
+            <div class="jobProfileInfo" style="display: none;">
+                <h2>Farm Laborer</h2>
+                <p><strong>Job Description:</strong> Farm laborers are responsible for various tasks on farms, including planting, harvesting, and maintaining crops and livestock. They operate farm equipment, perform manual labor, and assist in daily farm operations.</p>
+                <p><strong>Salary:</strong> 12 per hour.</p>
+                <p><strong>Working Conditions:</strong> Farm laborers work outdoors in various weather conditions and may have to handle animals and heavy machinery.</p>
+                <p><strong>Working Hours:</strong> Full-time, with seasonal variations and occasional weekend work.</p>
+                <p><strong>Ease of Job:</strong> The job can be physically demanding and requires a strong work ethic and adaptability.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Job 2</h2>
+            <a href="#" onclick="showConstructionWorkerProfile2()">For more</a>
+    
+            <div class="jobProfileInfo2" style="display: none;">
+                <h2>Farm Hand</h2>
+        <p><strong>Job Description:</strong> Farm hands assist with various tasks on farms, including feeding and caring for animals, repairing fences, and general farm maintenance. They work alongside farmers to ensure the smooth operation of the farm.</p>
+        <p><strong>Salary:</strong> 14 per hour.</p>
+        <p><strong>Working Conditions:</strong> Farm hands work outdoors and may handle livestock and equipment. The work environment can vary depending on the type of farm.</p>
+        <p><strong>Working Hours:</strong> Full-time with varying schedules based on farm needs, including early mornings and weekends.</p>
+        <p><strong>Ease of Job:</strong> The job requires physical fitness and a willingness to work in agricultural settings.</p>
+        <p><strong>Job Location:</strong> Farms in the surrounding countryside.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+    </section>
+    <script>
+        function openGoogleForm() {
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLSfdTTxTf0vhxJlg4efK0EpJHy2AFbuiOXvK69f1BmWHGmBHdQ/viewform');
+        }
+
+        // Rest of your JavaScript code
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Shram Saathi</p>
+    </footer>
+
+    <script>
+        // Function to show Construction Worker job profile information
+        function showConstructionWorkerProfile() {
+            var jobProfileInfo = document.querySelector(".jobProfileInfo");
+            jobProfileInfo.style.display = "block";
+        }
+
+        // Function to show Construction Worker job profile information for the second job
+        function showConstructionWorkerProfile2() {
+            var jobProfileInfo2 = document.querySelector(".jobProfileInfo2");
+            jobProfileInfo2.style.display = "block";
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for Labourers</title>
+    <link rel="stylesheet" href="cons.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Available Jobs for Labourers</h1>
+    </header>
+
+    <section class="job-list">
+        <div class="job-card">
+            <h3>AGRICULTURE</h3>
+            <h2>Job 1</h2>
+            <a href="#" onclick="showConstructionWorkerProfile()">Household Worker</a>
+    
+            <div class="jobProfileInfo" style="display: none;">
+                <h2>Farm Laborer</h2>
+                <p><strong>Job Description:</strong> Farm laborers are responsible for various tasks on farms, including planting, harvesting, and maintaining crops and livestock. They operate farm equipment, perform manual labor, and assist in daily farm operations.</p>
+                <p><strong>Salary:</strong> 12 per hour.</p>
+                <p><strong>Working Conditions:</strong> Farm laborers work outdoors in various weather conditions and may have to handle animals and heavy machinery.</p>
+                <p><strong>Working Hours:</strong> Full-time, with seasonal variations and occasional weekend work.</p>
+                <p><strong>Ease of Job:</strong> The job can be physically demanding and requires a strong work ethic and adaptability.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Job 2</h2>
+            <a href="#" onclick="showConstructionWorkerProfile2()">For more</a>
+    
+            <div class="jobProfileInfo2" style="display: none;">
+                <h2>Farm Hand</h2>
+        <p><strong>Job Description:</strong> Farm hands assist with various tasks on farms, including feeding and caring for animals, repairing fences, and general farm maintenance. They work alongside farmers to ensure the smooth operation of the farm.</p>
+        <p><strong>Salary:</strong> 14 per hour.</p>
+        <p><strong>Working Conditions:</strong> Farm hands work outdoors and may handle livestock and equipment. The work environment can vary depending on the type of farm.</p>
+        <p><strong>Working Hours:</strong> Full-time with varying schedules based on farm needs, including early mornings and weekends.</p>
+        <p><strong>Ease of Job:</strong> The job requires physical fitness and a willingness to work in agricultural settings.</p>
+        <p><strong>Job Location:</strong> Farms in the surrounding countryside.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+    </section>
+    <script>
+        function openGoogleForm() {
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLSfdTTxTf0vhxJlg4efK0EpJHy2AFbuiOXvK69f1BmWHGmBHdQ/viewform');
+        }
+
+        // Rest of your JavaScript code
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Shram Saathi</p>
+    </footer>
+
+    <script>
+        // Function to show Construction Worker job profile information
+        function showConstructionWorkerProfile() {
+            var jobProfileInfo = document.querySelector(".jobProfileInfo");
+            jobProfileInfo.style.display = "block";
+        }
+
+        // Function to show Construction Worker job profile information for the second job
+        function showConstructionWorkerProfile2() {
+            var jobProfileInfo2 = document.querySelector(".jobProfileInfo2");
+            jobProfileInfo2.style.display = "block";
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for Labourers</title>
+    <link rel="stylesheet" href="cons.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Available Jobs for Labourers</h1>
+    </header>
+
+    <section class="job-list">
+        <div class="job-card">
+            <h3>AGRICULTURE</h3>
+            <h2>Job 1</h2>
+            <a href="#" onclick="showConstructionWorkerProfile()">Household Worker</a>
+    
+            <div class="jobProfileInfo" style="display: none;">
+                <h2>Farm Laborer</h2>
+                <p><strong>Job Description:</strong> Farm laborers are responsible for various tasks on farms, including planting, harvesting, and maintaining crops and livestock. They operate farm equipment, perform manual labor, and assist in daily farm operations.</p>
+                <p><strong>Salary:</strong> 12 per hour.</p>
+                <p><strong>Working Conditions:</strong> Farm laborers work outdoors in various weather conditions and may have to handle animals and heavy machinery.</p>
+                <p><strong>Working Hours:</strong> Full-time, with seasonal variations and occasional weekend work.</p>
+                <p><strong>Ease of Job:</strong> The job can be physically demanding and requires a strong work ethic and adaptability.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Job 2</h2>
+            <a href="#" onclick="showConstructionWorkerProfile2()">For more</a>
+    
+            <div class="jobProfileInfo2" style="display: none;">
+                <h2>Farm Hand</h2>
+        <p><strong>Job Description:</strong> Farm hands assist with various tasks on farms, including feeding and caring for animals, repairing fences, and general farm maintenance. They work alongside farmers to ensure the smooth operation of the farm.</p>
+        <p><strong>Salary:</strong> 14 per hour.</p>
+        <p><strong>Working Conditions:</strong> Farm hands work outdoors and may handle livestock and equipment. The work environment can vary depending on the type of farm.</p>
+        <p><strong>Working Hours:</strong> Full-time with varying schedules based on farm needs, including early mornings and weekends.</p>
+        <p><strong>Ease of Job:</strong> The job requires physical fitness and a willingness to work in agricultural settings.</p>
+        <p><strong>Job Location:</strong> Farms in the surrounding countryside.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+    </section>
+    <script>
+        function openGoogleForm() {
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLSfdTTxTf0vhxJlg4efK0EpJHy2AFbuiOXvK69f1BmWHGmBHdQ/viewform');
+        }
+
+        // Rest of your JavaScript code
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Shram Saathi</p>
+    </footer>
+
+    <script>
+        // Function to show Construction Worker job profile information
+        function showConstructionWorkerProfile() {
+            var jobProfileInfo = document.querySelector(".jobProfileInfo");
+            jobProfileInfo.style.display = "block";
+        }
+
+        // Function to show Construction Worker job profile information for the second job
+        function showConstructionWorkerProfile2() {
+            var jobProfileInfo2 = document.querySelector(".jobProfileInfo2");
+            jobProfileInfo2.style.display = "block";
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for Labourers</title>
+    <link rel="stylesheet" href="cons.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Available Jobs for Labourers</h1>
+    </header>
+
+    <section class="job-list">
+        <div class="job-card">
+            <h3>CONSTRUCTION</h3>
+            <h2>Job 1</h2>
+            <a href="#" onclick="showConstructionWorkerProfile()">Household Worker</a>
+    
+            <div class="jobProfileInfo" style="display: none;">
+                <h2>Construction Laborer</h2>
+        <p><strong>Job Description:</strong> Construction laborers assist with various tasks on construction sites, including carrying materials, operating machinery, and performing general labor. They work under the supervision of skilled tradespeople.</p>
+        <p><strong>Salary:</strong> 16 per hour.</p>
+        <p><strong>Working Conditions:</strong> Construction laborers work in diverse environments, including buildings, roads, and bridges. They may need to handle heavy materials and work in different weather conditions.</p>
+        <p><strong>Working Hours:</strong> Full-time positions with varying shifts based on project requirements, including possible overtime and weekends.</p>
+        <p><strong>Ease of Job:</strong> The job involves physical labor and may require lifting and manual tasks.</p>
+        <p><strong>Job Location:</strong> Construction sites in the city.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Job 2</h2>
+            <a href="#" onclick="showConstructionWorkerProfile2()">For more</a>
+    
+            <div class="jobProfileInfo2" style="display: none;">
+                <h2>Heavy Equipment Operator</h2>
+                <p><strong>Job Description:</strong> Heavy equipment operators operate large machinery like bulldozers, excavators, and cranes on construction sites. They are responsible for digging, lifting, and moving heavy materials.</p>
+                <p><strong>Salary:</strong> 25 per hour.</p>
+                <p><strong>Working Conditions:</strong> Operators work outdoors and inside heavy equipment cabs, following safety protocols. They handle powerful machinery and work in various weather conditions.</p>
+                <p><strong>Working Hours:</strong> Full-time positions with regular hours, but extended hours may be necessary to meet project deadlines.</p>
+                <p><strong>Ease of Job:</strong> The job requires specialized training to operate heavy equipment safely and efficiently.</p>
+                <p><strong>Job Location:</strong> Construction sites and industrial areas within the region.</p>
+            </div>
+            
+            <button class="apply-button" onclick="openGoogleForm()">Apply Now</button>
+        </div>
+    </section>
+    <script>
+        function openGoogleForm() {
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLSfdTTxTf0vhxJlg4efK0EpJHy2AFbuiOXvK69f1BmWHGmBHdQ/viewform');
+        }
+
+        // Rest of your JavaScript code
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Shram Saathi</p>
+    </footer>
+
+    <script>
+        // Function to show Construction Worker job profile information
+        function showConstructionWorkerProfile() {
+            var jobProfileInfo = document.querySelector(".jobProfileInfo");
+            jobProfileInfo.style.display = "block";
+        }
+
+        // Function to show Construction Worker job profile information for the second job
+        function showConstructionWorkerProfile2() {
+            var jobProfileInfo2 = document.querySelector(".jobProfileInfo2");
+            jobProfileInfo2.style.display = "block";
+        }
+    </script>
+</body>
+</html>
