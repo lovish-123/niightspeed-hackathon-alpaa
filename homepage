@@ -11,13 +11,16 @@
         <h1>Shram Saathi</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href ="services.html">services</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
     </header>
+    <script src="script1.js"></script>
+
+    
     
     <main>
         <section class="intro">
@@ -25,18 +28,66 @@
             <p>Your trusted partner for labor solutions.</p>
         </section>
         
-        <section class="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
+        <button class="construction-jobs-button" id="construction-jobs">Construction Jobs</button>
+    
+        <script src="script.js"></script>
+        <button class="industrial-button" id="industrial">industrial</button>
+    
+        <script src="script.js"></script>
+        <button class="agricultural-button" id="agricultural">agricultural</button>
+    
+        <script src="script.js"></script>
+        <button class="household-button" id="household">household</button>
+    
+        <script src="script.js"></script>
     </main>
     
     <footer>
         <p>&copy; 2023 Shram Saathi. All rights reserved.</p>
     </footer>
+    <title>FAQ Section</title>
+    <link rel="stylesheet" type="text/css" href="faq.css">
 </body>
+</head>
+<body>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div id="faq-list"></div>
+    </div>
+    <script src="faq.js"></script>
+    <div class="button-container">
+        <a href="signin.html" class="sign-in-button">Sign In</a>
+    </div>
+    <div class="button-container">
+        <button class="sign-up-button" id="sign-up-button">Sign Up</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Bulletin</title>
+    <link rel="stylesheet" href="marquee.css">
+</head>
+<body>
+    <header>
+        <div class="news-banner">
+            <marquee behavior="scroll" direction="left">
+                <span class="news-item"><a href="https://timesofindia.indiatimes.com/city/lucknow/up-now-nations-largest-labour-market-too-cm/articleshow/103700952.cms">Breaking News:</a> UP now nation's largest labour market too: CM
+
+                    </span>
+                <span class="news-item"><a href="https://hindi.news18.com/news/uttar-pradesh/basti-over-rs-221-crore-deposited-in-labour-bank-account-notice-in-basti-income-tax-notice-7756174.html"> News:</a> UP News: मार्बल की घिसाई करने वाले मजदूर के खाते में आए 221 करोड़, इनकम टैक्स का नोटिस मिलते ही उड़े होश.</span>
+                <span class="news-item"><a href="https://www.navodayatimes.in/news/khabre/what-is-new-labor-law-up-bjp-govt-against-labor-prsgnt/145949/">Last News:</a> जानिए क्या है नया श्रम कानून, क्या हुए हैं इसमें बदलाव और क्यों किया जा रहा है इसका विरोध?</span>
+            </marquee>
+        </div>
+    </header>
+    
+    <!-- Rest of your webpage content goes here -->
+    
+</body>
+</html>
 </html>
