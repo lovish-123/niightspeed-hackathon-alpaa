@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... Your other head content ... -->
+</head>
+<body>
+    <header>
+        <!-- ... Your header content ... -->
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to Shram Saathi</h2>
+            <p>Your trusted partner for labor solutions.</p>
+        </section>
+
+        <!-- Container for displaying data -->
+        <div id="data-container"></div>
+
+        <script>
+            // Fetch and display data
+            fetch('/data') // This URL should match the server route
+                .then((response) => response.json())
+                .then((data) => {
+                    const dataContainer = document.getElementById('data-container');
+                    dataContainer.innerHTML = '<h2>Dataset</h2>';
+                    data.forEach((item) => {
+                        dataContainer.innerHTML += <p>${item.name}</p>;
+                    });
+                })
+                .catch((error) => {
+                    console.error('Error fetching data:', error);
+                });
+        </script>
+    </main>
+
+    <footer>
+        <!-- ... Your footer content ... -->
+    </footer>
+</body>
+</html>
