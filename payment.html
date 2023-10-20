@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway Details and PDF Example</title>
+    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="jobpdf.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Payment Details</h2>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfdTTxTf0vhxJlg4efK0EpJHy2AFbuiOXvK69f1BmWHGmBHdQ/formResponse" method="post" onsubmit="return showPaymentSubmitted()">
+            <div class="form-group">
+                <label for="card_number">Card Number</label>
+                <input type="text" id="card_number" name="entry.123456789" placeholder="1234 5678 9012 3456" required>
+            </div>
+            <div class="form-group">
+                <label for="expiration">Expiration Date</label>
+                <input type="text" id="expiration" name="entry.234567890" placeholder="MM/YYYY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="entry.345678901" placeholder="123" required>
+            </div>
+            <button type="submit">Submit Payment</button>
+        </form>
+
+        <h2 id="paymentMessage" style="display: none;">Payment submitted</h2>
+
+        <h2>PDF Document</h2>
+        <p>Click the link below to view or download the PDF document:</p>
+        <a href="c:\Users\DELL\Downloads\ResumeARNAV.pdf" target="_blank">View/Download PDF</a>
+    </div>
+
+    <script>
+        function showPaymentSubmitted() {
+            var paymentMessage = document.getElementById("paymentMessage");
+            paymentMessage.style.display = "block";
+            return false; // Prevents form submission
+        }
+    </script>
+</body>
+</html>
